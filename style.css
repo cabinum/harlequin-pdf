@@ -9,12 +9,14 @@ body{
 }
 
 header{
+    gap: 5vh;
    display: flex;
    justify-content: center;
    background-color: lightcyan;
 }
 
 .coly1{
+    padding: 5px;
     width: 30%;
 }
 
@@ -40,13 +42,40 @@ button{
     text-align: center;
 }
 
-.intro{
+.intr{
     text-align: center;
-    padding: 2vh;
+}
+
+.intr h1{
+    font-family: cursive;
+    color: blue;
+}
+
+strong{
+    color: blue;
+}
+
+.intro{
+    padding: 1vh;
+    margin: auto;
+    background-color: lightcyan;
+    width: 23%;
+}
+
+.into{
+    padding: 1vh;
+}
+
+.intro ul li{
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .intro h1{
+    text-align: center;
     font-family: cursive;
+    color: blue;
 }
 
 .catalog{
@@ -55,10 +84,6 @@ button{
     overflow: scroll;
     justify-content: center;
     gap: 2px;
-}
-
-.styl{
-    font-weight: bold;
 }
 
 .catalog img{
@@ -142,10 +167,11 @@ footer {
 @media all and (max-device-width: 580px){
     
     header{
+        gap: 0vh;
         display: inline-block;
         justify-content: unset;
         background-color: lightcyan;
-        padding: 5px;
+        padding: 3px;
      }
      
      .coly1{
@@ -179,13 +205,36 @@ footer {
         text-align: center;
     }
     
-    .intro{
+    .intr{
         text-align: center;
-        padding: 2vh;
+        padding: 5px;
+    }
+    
+    .intr h1{
+        font-family: monospace;
+    }
+    
+    .intro{
+        padding: 1vh;
+        margin: auto;
+        background-color: lightcyan;
+        width: 80%;
+    }
+    
+    .into{
+        padding: 1vh;
+    }
+    
+    .intro ul li{
+        font-family: monospace;
+        font-size: 16px;
+        line-height: 1.5;
     }
     
     .intro h1{
+        text-align: center;
         font-family: cursive;
+        color: blue;
     }
     
     .catalog{
